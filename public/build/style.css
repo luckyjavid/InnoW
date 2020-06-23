@@ -12,6 +12,9 @@ body {
 .blue{
   background-color: #18344D;
 }
+.darkblue{
+  background-color: #0c1a27;
+}
 .myyellow{
   color: #FFD166;
 }
@@ -38,13 +41,14 @@ header {
 }
 .innoweg {
   font-weight: bolder;
-  font-size: 700%;
+  font-size: 600%;
  
 }
 #headbottom{
   background-color: #142B40;
   bottom:0;
   left: 0;
+  z-index: 2;
 }
 
 hr{
