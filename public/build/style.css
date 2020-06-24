@@ -1,7 +1,9 @@
 html,
 body {
   height: 100%;
-  font-family:  Arial, Helvetica, sans-serif;
+  font-family: Arial,
+  Helvetica,
+  sans-serif;
 }
 #searchsign{
   position: relative;
@@ -10,17 +12,31 @@ body {
 }
 /* header */
 .blue{
-  background-color: #18344D;
+  /* background-color: #18344D; */
+  /* background-color: #1b9970; */
+  background-color: #198B66;
+  /* background-color: #193252; */
+}
+.lightblue{
+  background-color: #198598;
 }
 .darkblue{
-  background-color: #0c1a27;
+  /* background-color: #0c1a27; */
+  background-color: #193252;
+}
+.fontDarkblue{
+  color:#193252;
+}
+.fontRed{
+  color: #5A0001;
 }
 .myyellow{
-  color: #FFD166;
+  color: #E8BE5D;
+  /* color: #FFD166; */
 }
 header {
   position: relative;
-  background-color: #18344D;
+  background-color: #198B66;
   height: 100%;
   text-align: center;
 }   
@@ -40,9 +56,13 @@ header {
   color: #1EA176;
 }
 .innoweg {
-  font-weight: bolder;
-  font-size: 600%;
- 
+  color: #193252;
+  font-weight: 800;
+  font-size: 500%;
+  
+}
+.fontMuseo{
+  font-family: MuseoModerno;
 }
 #headbottom{
   background-color: #142B40;
