@@ -91,3 +91,9 @@ footer {
   text-align: center;
   line-height: 12em;
 }
+
+
+/* All delay classes will take half the time to start */
+:root {
+  --animate-delay: 0.5s;
+}
