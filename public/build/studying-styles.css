@@ -1,0 +1,68 @@
+svg#freepik_stories-studying:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-studying.animated #freepik--Shadow--inject-7 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideLeft;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-studying.animated #freepik--Character--inject-7 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight, 1.5s Infinite linear wind;
+  animation-delay: 0s, 1s;
+}
+
+svg#freepik_stories-studying.animated #freepik--Desk--inject-7 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomIn;
+  animation-delay: 0s;
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(.3deg);
+  }
+
+  75% {
+    transform: rotate(-.3deg);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

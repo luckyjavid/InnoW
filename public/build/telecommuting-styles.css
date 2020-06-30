@@ -1,0 +1,208 @@
+svg#freepik_stories-telecommuting:not(.animated) .animable {
+  opacity: 0;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Chair--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Cushion--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomOut;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Notes--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) fadeIn;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Lamp--inject-3 {
+  animation: 1s 1 forwards ease-in zoomIn, 1.5s Infinite linear wind;
+  animation-delay: 0s, 1s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Character--inject-3 {
+  animation: 1s 1 forwards ease-out lightSpeedLeft, 1.5s Infinite linear floating;
+  animation-delay: 0s, 1s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--speech-bubble--inject-3 {
+  animation: 0.6s 1 forwards linear zoomOut, 3s Infinite linear shake;
+  animation-delay: 0.2s, 0.8s;
+  opacity: 0
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Cat--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Device--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomIn;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Desk--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight;
+  animation-delay: 0s;
+}
+
+svg#freepik_stories-telecommuting.animated #freepik--Plant--inject-3 {
+  animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown;
+  animation-delay: 0s;
+}
+
+@keyframes lightSpeedRight {
+  from {
+    transform: translate3d(50%, 0, 0) skewX(-20deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: skewX(10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: skewX(-2deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes wind {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(1deg);
+  }
+
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+@keyframes lightSpeedLeft {
+  from {
+    transform: translate3d(-50%, 0, 0) skewX(20deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: skewX(-10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: skewX(2deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes floating {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
