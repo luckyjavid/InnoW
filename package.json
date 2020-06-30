@@ -1,5 +1,5 @@
 {
-  "name": "InnoW",
+  "name": "InnoW2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,10 @@
   "dependencies": {
     "animate.css": "^4.1.0",
     "autoprefixer": "^9.8.3",
+    "fullpage.js": "^3.0.8",
+    "gsap": "^3.3.4",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "webpack": "^4.43.0"
   }
 }
