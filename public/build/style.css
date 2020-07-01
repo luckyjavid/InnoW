@@ -7,6 +7,7 @@
 html,
 body {
   height: 100vh;
+  background-color: #f3f4f3;
 }
 
 /* farsi fonts */
@@ -266,6 +267,10 @@ footer {
   background-color: white;
   background-size: cover;
 }
+.s4{
+  background-color: #f3f4f3;
+  background-image: url('https://www.freepik.com/free-photos-vectors/background');
+}
 
 /* media rules */ 
 /* ---------------------------------------- */
@@ -437,4 +442,17 @@ footer {
 
 .bottom-section h5{
   padding-bottom: .75em;
+}
+
+.allCourses{
+  font-family: Vazir;
+  text-align: center;
+  font-size: large;
+  color: #198598;
+  margin-top: 2em;
+  direction: rtl;
+  font-weight: 900;
+}
+.allCourses:hover{
+  color: #367972;
 }
