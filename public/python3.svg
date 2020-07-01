@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="636.2666"
+   height="636.56708"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="python.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="8.1644277"
+     inkscape:cy="-126.14591"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1033"
+     inkscape:window-x="-2"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1883.192,116.31807)">
+    <rect
+       transform="scale(-1,1)"
+       y="-115.93228"
+       x="1312.6306"
+       height="104.47134"
+       width="97.14286"
+       id="rect3817"
+       style="fill:#ffdf5a;fill-opacity:1;stroke:none" />
+    <rect
+       transform="scale(-1,1)"
+       y="-116.31807"
+       x="1314.2738"
+       height="85.714287"
+       width="546.07111"
+       id="rect3819"
+       style="fill:#ffdf5a;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#ffdf5a;fill-opacity:1;stroke:none"
+       d="m -1777.4878,-110.218 -85.7143,0 0,275.94919 132.1813,56.56854 z"
+       id="rect3821"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3825"
+       d="m -1301.2022,31.132224 9.4062,20.84375 -9.4062,20.8125 -9.4062,-20.8125 9.4062,-20.84375 z"
+       style="fill:#4281b2;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#4281b2;fill-opacity:1;stroke:none"
+       d="m -1883.192,431.25779 0,-251.4375 151.4107,80 25.7143,171.4375 z m 34.2813,-45.71875 40,0 0,-42.875 -40,0 z"
+       id="path3829"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <rect
+       style="fill:#4281b2;fill-opacity:1;stroke:none"
+       id="rect3831"
+       width="97.14286"
+       height="88.308907"
+       x="-1817.4866"
+       y="-515.8429"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#4281b2;fill-opacity:1;stroke:none"
+       id="rect3833"
+       width="537.98993"
+       height="71.572151"
+       x="-1811.7722"
+       y="-520.24902"
+       transform="scale(1,-1)" />
+    <path
+       style="fill:#4281b2;fill-opacity:1;stroke:none"
+       d="m -1352.6294,518.20986 85.7143,0 0,-263.07285 -128.1407,-69.44488 z"
+       id="rect3835"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffdf5a;fill-opacity:1;stroke:none"
+       d="m -1828.9152,384.94083 -9.4062,-20.84375 9.4062,-20.8125 9.4062,20.8125 -9.4062,20.84375 z"
+       id="path3839"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:connector-curvature="0"
+       id="path3815"
+       d="m -1246.9254,-15.184736 0,251.437506 -151.4107,-80 -25.7143,-171.437506 z m -34.2813,45.71875 -40,0 0,42.875 40,0 z"
+       style="fill:#ffdf5a;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
