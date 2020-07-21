@@ -16,7 +16,7 @@
     "autoprefixer": "^9.8.4",
     "fullpage.js": "^3.0.8",
     "gsap": "^3.3.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   },
